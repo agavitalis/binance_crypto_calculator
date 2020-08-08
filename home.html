@@ -1,0 +1,68 @@
+<!DOCTYPE html">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Binance Cryto Calculator</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="display: flex; justify-content: space-around;">
+<div>
+    <h3>Binance Cryto (Sell Price) Calculator</h3>
+    <form action="" method="post" class="dark-matter">
+        <h1>Crypto Calculator
+            <span>Please fill all the fields marked (*).</span>
+        </h1>
+        <div>
+            <span>Buy Price* :</span><br>
+            <input id="buy" type="number" name="name" placeholder="Enter your buy price" />
+        </div>
+
+        <div>
+            <span>Desired precentage profit* :</span><br>
+            <input id="percent" type="number" name="percent" placeholder="Enter desired precentage profit" />
+        </div>
+
+        <div>
+            <span>Result:</span><br>
+            <textarea id="sell" name="sell" readonly placeholder="Sell Price to achive the above precentage"></textarea>
+        </div>
+
+        <div>
+            <span>&nbsp;</span>
+            <input type="button" id="button" class="button" value="Calculate" />
+        </div>
+    </form>
+</div>
+<div>
+    <h3>Binance Cryto (Percentage) Calculator</h3>
+    <form action="" method="post" class="dark-matter">
+        <h1>Crypto Calculator
+            <span>Please fill all the fields marked (*).</span>
+        </h1>
+        <div>
+            <span>Buy Price* :</span><br>
+            <input id="buyP" type="number" name="buyP" placeholder="Enter your buy price" />
+        </div>
+
+        <div>
+            <span>Sell Price* :</span><br>
+            <input id="sellP" type="number" name="sellP" placeholder="Enter desired precentage profit" />
+        </div>
+
+        <div>
+            <span>Percentage Gain Outcome:</span><br>
+            <textarea id="percentageP" name="percentageP" readonly placeholder="Percentage Gain to Achieve with the above Sell Price"></textarea>
+        </div>
+
+        <div>
+            <span>&nbsp;</span>
+            <input type="button" id="buttonP" class="button" value="Calculate" />
+        </div>
+    </form>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
