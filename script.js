@@ -31,7 +31,7 @@ document.getElementById("buttonP").addEventListener("click", function(){
     let Y = (sellingPrice - buyingPrice) * 100;
     let percentageProfit = Y / buyingPrice
 
-     document.getElementById("percentageP").innerHTML = "When you sell at " + sellingPrice+ "%"+ " you will make a profit of "+ percentageProfit + "%" ;
+     document.getElementById("percentageP").innerHTML = "When you sell at " + sellingPrice + " you will make a profit of "+ percentageProfit + "%" ;
   }
   
 });
